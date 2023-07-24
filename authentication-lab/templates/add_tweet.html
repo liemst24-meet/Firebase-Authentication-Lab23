@@ -8,4 +8,22 @@
     Great Job!
 
     <button><a href="/signout">sign out</a></button></body>
+    <form action="/add_tweet" method="POST">
+        <div>
+            <label>title</label>
+            <div>
+                <input type="text"  name="title" id="titleStr" required>
+            </div>
+        </div>
+
+        <div>
+            <label>text</label>
+            <div>
+                <input type="text"  name="text" id="textStr" maxlength="280" required>
+            </div>
+        </div>
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
 </html>
